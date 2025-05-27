@@ -1,0 +1,17 @@
+/* MainStyle.css */
+
+/* Apply a global font-family rule to all elements */
+* {
+  font-family: "Poppins", sans-serif; /* Modern font for text */
+  margin: 0; /* Reset margin for consistency */
+  padding: 0; /* Reset padding for consistency */
+  box-sizing: border-box; /* Include padding and border in element's dimensions */
+}
+
+.store-page {
+  min-height: 100vh;
+  background: url('/HomeBackground.png') no-repeat center center fixed; /* Caminho para a imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o fundo */
+  display: flex;
+  flex-direction: column;
+}
